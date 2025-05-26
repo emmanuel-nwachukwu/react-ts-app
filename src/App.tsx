@@ -1,5 +1,6 @@
 import Counter from "./components/Counter";
 import Greeting from "./components/Greeting";
+import LoginForm from "./components/LoginForm";
 import NoticeBox from "./components/NoticeBox";
 import UserCard from "./components/UserCard";
 
@@ -29,6 +30,7 @@ const App = () => {
         Something went wrong.
       </NoticeBox>
       <Counter />
+      <LoginForm />
     </div>
   );
 };

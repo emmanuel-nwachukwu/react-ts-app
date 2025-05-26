@@ -71,3 +71,31 @@ body {
   opacity: 0;
   transform: translateY(-10px);
 }
+
+
+.form-container {
+  padding: 2rem;
+  gap: .5rem;
+  display: grid;
+  /* grid-template-columns: 1fr; */
+}
+
+
+.input-container label {
+ margin-right: 1rem;
+}
+
+.input-form {
+  padding: 1rem .3rem;
+  font-size: 1rem;
+}
+
+/* .input-form::placeholder {
+  padding-left: 1rem;
+} */
+
+.submitBtn {
+  padding-block: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
