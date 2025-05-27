@@ -22,6 +22,7 @@ const LoginForm = () => {
     console.log("Clicked");
     if (formData.username && formData.password) {
       console.log(formData);
+      return alert("Submitted ✅");
     } else {
       return alert("please fill in all the fields");
     }
